@@ -1,0 +1,214 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+    header{
+        background-image: url(image-hero.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 700px;
+        color: #fff;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    ul li{
+        list-style-type: none;
+    }
+    
+    .list1{
+        display: none;
+        position: flex;
+        width: 100%;
+        height: 100vh;
+        background-color: #000;
+        color: #fff;
+        font-size: 30px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+} 
+
+
+
+header{
+    background-image: url(image-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.list1{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.head1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+    font-weight: bolder;
+    padding-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fas{
+    display: block;
+    font-size: 35px;
+    padding-right: 40px;
+    margin-top: 30px;
+}
+
+li{
+    margin-bottom: 15px;
+}
+
+li:hover{
+    transform: scale(1.03);
+}
+
+.fa-solid{
+    font-size: 30px;
+    padding-right: 40px;
+    margin-top: 30px;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+}
+
+.box2{
+    font-size: 45px;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #fff;
+    margin: 150px auto;
+    width: 90%;
+}
+
+.section1{
+    margin-top: 100px;
+    display: grid;
+    place-items: center;
+    font-family: monospace;
+}
+
+img{
+    width: 400px;
+}
+
+.art{
+    margin-top: 30px;
+    width: 350px;
+}
+
+.lead{
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.art2{
+    color: darkgray;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section2{
+    margin-top: 60px;
+    display: grid;
+    place-items: center;
+}
+
+.images div{
+    position: relative;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    grid-auto-flow: row;
+    row-gap: 25px;
+}
+
+.image-heading{
+    font-size: 40px;
+    font-family: monospace;
+}
+
+.image-text{
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 30px;
+    font-family: monospace;
+}
+
+.btn{
+    background-color: #fff;
+    color: #0B2545;
+    font-size: 20px;
+    font-family:  monospace;
+    padding: 10px 50px;
+    border: 2px solid #0B2545;
+    margin-bottom: 80px;
+}
+
+footer{
+    background-color: #000;
+    color: #fff;
+    display: block;
+    text-align: center;
+    height: 500px;
+}
+
+.heading-name{
+    font-family: monospace;
+    font-size: 35px;
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+
+ul{
+    font-size: 20px;
+    font-family: monospace;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.icon{
+    font-size: 30px;
+}
+
